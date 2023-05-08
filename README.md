@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/logo.jpg" alt="logo" width="50%" height="50%">
+<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/logo.jpg" alt="logo" width="40%" height="40%">
 Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/genai4good.png" alt="genai4good" width="20%" height="20%">
 
 <figure class="image">
@@ -27,6 +27,7 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt C
 
 **Partners:**
 - Vision and Image Processing Research Group, University of Waterloo
+<img src="https://vip.uwaterloo.ca/wp-content/uploads/2023/02/viplogo-1.png">
 
 
 **The DeepfakeArt Challenge benchmark dataset is available [here](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
