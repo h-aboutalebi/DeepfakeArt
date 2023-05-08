@@ -5,7 +5,6 @@ Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/g
 
 <figure class="image">
 <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/all.jpg" alt="inpainting">
-<figcaption>Example generated forgery images in DeepfakeArt benchmark dataset.</figcaption>
 </figure>
 
 # DeepfakeArt Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection
