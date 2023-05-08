@@ -3,6 +3,11 @@
 <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/logo.jpg" alt="logo" width="600" height="200">
 Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/genai4good.png" alt="genai4good" width="20%" height="20%">
 
+<figure class="image">
+<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/all.jpg" alt="inpainting">
+<figcaption>Generated forgery images from real images using inpainting and style transfer.</figcaption>
+</figure>
+
 # DeepfakeArt Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection
 The tremendous recent advances in generative artificial intelligence techniques have led to significant successes and promise in a wide range of different applications ranging from conversational agents and textual content generation to voice and visual synthesis.  Amid the rise in generative AI and its increasing widespread adoption, there has been significant growing concern over the use of generative AI for malicious purposes.  In the realm of visual content synthesis using generative AI, key areas of significant concern has been image forgery (e.g., generation of images containing or derived from copyright content), and data poisoning (i.e., generation of adversarially contaminated images).  
 
