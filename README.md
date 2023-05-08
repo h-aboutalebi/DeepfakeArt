@@ -27,8 +27,9 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt C
 
 **Partners:**
 - Vision and Image Processing Research Group, University of Waterloo
+<figure class="image">
 <img src="https://vip.uwaterloo.ca/wp-content/uploads/2023/02/viplogo-1.png">
-
+</figure>
 
 **The DeepfakeArt Challenge benchmark dataset is available [here](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
 
