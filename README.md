@@ -19,7 +19,7 @@ The forgery creation methods implemented in this dataset include:
 - Cutmix
 
 
-**The Dataset is available [Visit Dataset] (https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
+**The Dataset is available [Visit Dataset](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
 
 ## Inpainting Category
 
