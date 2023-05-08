@@ -1,6 +1,6 @@
 
 
-<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/logo.jpg" alt="logo" width="600" height="200">
+<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/logo.jpg" alt="logo" width="50%" height="50%">
 Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/genai4good.png" alt="genai4good" width="20%" height="20%">
 
 <figure class="image">
