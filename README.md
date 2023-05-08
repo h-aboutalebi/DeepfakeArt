@@ -28,7 +28,7 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt b
 - Alexander Wong
 
 
-**The Dataset is available [Visit Dataset](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
+**The DeepfakeArt benchmark dataset is available [here](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
 
 ## Inpainting Category
 <figure class="image">
