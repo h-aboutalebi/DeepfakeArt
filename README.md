@@ -44,7 +44,7 @@ Each record in this category consists of three images:
 
 The prompt used for the generation of the inpainting image is: "generate a painting compatible with the rest of the image"
 
-This category consists of more than 5000 records. The original images are masked between 40%-60%. We applied one of the followed macking schema randomly:
+This category consists of more than 5000 records. The original images are masked between 40%-60%. We applied one of the followed masking schema randomly:
 
 - side masking: where the top side, bottom side, right side or left side of the source image is maked
 - diagonal masking: where the upper right, upper left, lower right, or lower left diagonal side of thw source image is masked
