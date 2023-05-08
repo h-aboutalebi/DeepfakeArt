@@ -4,13 +4,15 @@
 Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/genai4good.png" alt="genai4good" width="20%" height="20%">
 
 # DeepfakeArt Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection
-The tremendous recent advances in generative artificial intelligence techniques have led to significant successes and promise in a wide range of different applications ranging from conversational agents and textual content generation to voice and visual synthesis.  Amid the rise in generative AI and its increasing widespread adoption, there has been significant growing concern over the use of generative AI for malicious purposes.  In the realm of visual content synthesis using generative AI, key areas of significant concern has been image forgery (e.g., generation of images containing or derived from copyright content), and data poisoning (i.e., generation of contaminated images).  Motivated to address these key concerns to encourage responsible generative AI, we introduce DeepfakeArt, a large-scale benchmark dataset designed specifically to aid in the building of machine learning algorithms for generative AI art forgery and data poisoning detection. Comprising of over 30,000 records across a variety of generative forgery and data poisoning techniques, each entry consists of a pair of images that are either forgeries / contaminated or not. Each of the generated images in the DeepfakeArt benchmark dataset has been quality checked in a comprehensive mannger by our team.
+The tremendous recent advances in generative artificial intelligence techniques have led to significant successes and promise in a wide range of different applications ranging from conversational agents and textual content generation to voice and visual synthesis.  Amid the rise in generative AI and its increasing widespread adoption, there has been significant growing concern over the use of generative AI for malicious purposes.  In the realm of visual content synthesis using generative AI, key areas of significant concern has been image forgery (e.g., generation of images containing or derived from copyright content), and data poisoning (i.e., generation of adversarially contaminated images).  
 
-The forgery creation methods implemented in this dataset include:
+Motivated to address these key concerns to encourage responsible generative AI, we introduce DeepfakeArt, a large-scale benchmark dataset designed specifically to aid in the building of machine learning algorithms for generative AI art forgery and data poisoning detection. Comprising of over 30,000 records across a variety of generative forgery and data poisoning techniques, each entry consists of a pair of images that are either forgeries / adversarially contaminated or not. Each of the generated images in the DeepfakeArt benchmark dataset has been quality checked in a comprehensive manner by our team.
+
+The generative forgery and data poisoning methods leveraged in the DeepfakeArt benchmark dataset include:
 
 - Inpainting
 - Style Transfer
-- Adversarial 
+- Adversarial data poisoning
 - Segmix
 - Cutmix
 
