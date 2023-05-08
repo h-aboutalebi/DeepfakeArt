@@ -54,4 +54,7 @@ Each prompt was used for a quarter of the images from each sub-directory. Finall
 
 The code for the data generation of this part can be found [here](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_style_transfer.py)
 
-
+<figure class="image">
+<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/style.jpg">
+<figcaption>Generated forgery images from style transfer images using ControlNet.</figcaption>
+</figure>
