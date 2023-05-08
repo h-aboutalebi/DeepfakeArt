@@ -17,7 +17,6 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt b
 - Inpainting
 - Style Transfer
 - Adversarial data poisoning
-- Segmix
 - Cutmix
 
 
@@ -108,11 +107,3 @@ In this section, images were generated using the "Cutmix" technique, which invol
 
 
 The code for this section can be found [(here)](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_Cutmix.py).
-
-## Segmix Category
-
-This method is initially proposed in the paper of "Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models" [(ref)](https://arxiv.org/abs/2212.03860)
-
-In this section, images were generated using the "Segmix" technique, which involves selecting an instance of an object from a source image and overlaying it onto a target image. Both the source and target images were randomly chosen from the PASCAL VOC dataset. Instance segmentation masks provided by the PASCAL VOC dataset label the object masks in the source image. The object instance from the source image, resizing of the selected object, and overlaying location onto the target image were all determined randomly. This section comprises 3,000 sets of 4-tuples, each containing a source image, target image, object mask, and the resulting mixed image.
-
-The code for this section can be found [(here)](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_Segmix.py)
