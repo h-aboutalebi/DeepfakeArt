@@ -58,3 +58,7 @@ The code for the data generation of this part can be found [here](https://github
 <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/style.jpg">
 <figcaption>Generated forgery images from style transfer images using ControlNet.</figcaption>
 </figure>
+
+## Adversarial Images
+
+Images in this section were produced using RobustBench [(ref)](https://robustbench.github.io/) and torchattack [(ref)](https://adversarial-attacks-pytorch.readthedocs.io/en/latest/attacks.html) libraries. Here we used a ResNet50 model trained on ImageNet against FGSM [(ref)](https://arxiv.org/abs/1412.6572) attack, PGD [(ref)](https://arxiv.org/pdf/1706.06083.pdf) attack, and APGD [(ref)](https://arxiv.org/pdf/2003.01690.pdf) attack.
