@@ -50,7 +50,7 @@ The prompt used for the generation of the inpainting image is: "generate a paint
 
 This category consists of more than 5000 records. The original images are masked between 40%-60%. We applied one of the followed masking schema randomly:
 
-- side masking: where the top side, bottom side, right side or left side of the source image is maked
+- side masking: where the top side, bottom side, right side or left side of the source image is masked
 - diagonal masking: where the upper right, upper left, lower right, or lower left diagonal side of thw source image is masked
 - random masking: where randomly selected parts of the source image are masked
 
