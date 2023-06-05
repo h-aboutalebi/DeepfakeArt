@@ -8,9 +8,7 @@ Part of <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/g
 </figure>
 
 # DeepfakeArt Challenge Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection
-The tremendous recent advances in generative artificial intelligence techniques have led to significant successes and promise in a wide range of different applications ranging from conversational agents and textual content generation to voice and visual synthesis.  Amid the rise in generative AI and its increasing widespread adoption, there has been significant growing concern over the use of generative AI for malicious purposes.  In the realm of visual content synthesis using generative AI, key areas of significant concern has been image forgery (e.g., generation of images containing or derived from copyright content), and data poisoning (i.e., generation of adversarially contaminated images).  
-
-Motivated to address these key concerns to encourage responsible generative AI, we introduce the DeepfakeArt Challenge, a large-scale challenge benchmark dataset designed specifically to aid in the building of machine learning algorithms for generative AI art forgery and data poisoning detection. Comprising of over 30,000 records across a variety of generative forgery and data poisoning techniques, each entry consists of a pair of images that are either forgeries / adversarially contaminated or not. Each of the generated images in the DeepfakeArt Challenge benchmark dataset has been quality checked in a comprehensive manner by our team.  Launched by the Vision and Image Processing Research Group at the University of Waterloo, the DeepfakeArt Challenge is a core part of GenAI4Good, a global open source initiative for accelerating machine learning for promoting responsible creation and deployment of generative AI for good. 
+The tremendous recent advances in generative artificial intelligence techniques have led to significant successes and promise in a wide range of different applications ranging from conversational agents and textual content generation to voice and visual synthesis. Amid the rise in generative AI and its increasing widespread adoption, there has been significant growing concern over the use of generative AI for malicious purposes. In the realm of visual content synthesis using generative AI, key areas of significant concern has been image forgery (e.g., generation of images containing or derived from copyright content), and data poisoning (i.e., generation of adversarially contaminated images). Motivated to address these key concerns to encourage responsible generative AI, we introduce the DeepfakeArt Challenge, a large-scale challenge benchmark dataset designed specifically to aid in the building of machine learning algorithms for generative AI art forgery and data poisoning detection. Comprising of over 32,000 records across a variety of generative forgery and data poisoning techniques, each entry consists of a pair of images that are either forgeries / adversarially contaminated or not. Each of the generated images in the DeepfakeArt Challenge benchmark dataset has been quality checked in a comprehensive manner. The DeepfakeArt Challenge is a core part of GenAI4Good, a global open source initiative for accelerating machine learning for promoting responsible creation and deployment of generative AI for good.
 
 The generative forgery and data poisoning methods leveraged in the DeepfakeArt Challenge benchmark dataset include:
 - Inpainting
@@ -32,6 +30,7 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt C
 </figure>
 
 **The DeepfakeArt Challenge benchmark dataset is available [here](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
+**The DeepfakeArt Challenge paper is available [here]([https://www.kaggle.com/datasets/danielmao2019/deepfakeart](https://arxiv.org/pdf/2306.01272.pdf)**
 
 ## Inpainting Category
 <figure class="image">
@@ -48,7 +47,7 @@ Each record in this category consists of three images:
 
 The prompt used for the generation of the inpainting image is: "generate a painting compatible with the rest of the image"
 
-This category consists of more than 5000 records. The original images are masked between 40%-60%. We applied one of the followed masking schema randomly:
+This category consists of more than 5063 records. The original images are masked between 40%-60%. We applied one of the followed masking schema randomly:
 
 - side masking: where the top side, bottom side, right side or left side of the source image is masked
 - diagonal masking: where the upper right, upper left, lower right, or lower left diagonal side of thw source image is masked
@@ -107,7 +106,7 @@ The code for this category can be found [(here)](https://github.com/h-aboutalebi
 
 This method is initially proposed in the paper of "Diffusion Art or Digital Forgery? Investigating Data Replication in Diffusion Models" [(ref)](https://arxiv.org/abs/2212.03860).
 
-In this section, images were generated using the "Cutmix" technique, which involves selecting a square patch of pixels from a source image and overlaying it onto a target image. Both the source and target images were randomly chosen from the WikiArt dataset. The patch size, source image extraction location, and target image overlay location were all determined randomly. This section contains 3,000 sets of triplets, each consisting of a source image, target image, and the resulting mixed image.
+In this section, images were generated using the "Cutmix" technique, which involves selecting a square patch of pixels from a source image and overlaying it onto a target image. Both the source and target images were randomly chosen from the WikiArt dataset. The patch size, source image extraction location, and target image overlay location were all determined randomly. This section contains 2,000 records.
 
 
 The code for this section can be found [(here)](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_Cutmix.py).
