@@ -30,7 +30,7 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt C
 </figure>
 
 **The DeepfakeArt Challenge benchmark dataset is available [here](https://www.kaggle.com/datasets/danielmao2019/deepfakeart)**
-**The DeepfakeArt Challenge paper is available [here]([https://www.kaggle.com/datasets/danielmao2019/deepfakeart](https://arxiv.org/pdf/2306.01272.pdf)**
+**The DeepfakeArt Challenge paper is available [here]([https://www.kaggle.com/datasets/danielmao2019/deepfakeart](https://arxiv.org/pdf/2306.01272.pdf))**
 
 ## Inpainting Category
 <figure class="image">
