@@ -33,6 +33,12 @@ The generative forgery and data poisoning methods leveraged in the DeepfakeArt C
 
 **The DeepfakeArt Challenge paper is available [here](https://arxiv.org/pdf/2306.01272.pdf)**
 
+## Data distribution
+
+The DeepfakeArt Challenge benchmark dataset, as proposed, encompasses over 32,000 records, incorporating a wide spectrum of generative forgery and data poisoning techniques. Each record is represented by a pair of images, which could be either forgeries, adversarially compromised, or not. Fig. 2 (a) depicts the overall distribution of data, differentiating between forgery/adversarially contaminated records and untainted ones. The dispersion of data across various generative forgery and data poisoning techniques is demonstrated in Fig. 2 (b). Notably, as presented Fig. in 2 (a), the dataset contains almost double the number of dissimilar pairs compared to similar pairs, making the identification of similar pairs substantially more challenging given that two-thirds of the dataset comprises dissimilar pairs.
+
+<img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/dist.png" alt="distribution of data">
+
 ## Inpainting Category
 <figure class="image">
 <img src="https://github.com/h-aboutalebi/DeepfakeArt/blob/main/images/inpainting.jpg" alt="inpainting">
