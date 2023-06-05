@@ -84,7 +84,7 @@ Guided by Canny edge detections and prompts, we selected 200 images from each su
 
 Each prompt was used for a quarter of the images from each sub-directory. 
 
-This category consists of more than 3,213 records. 
+This category consists of more than 3,074 records. 
 
 The code for the data generation of this category can be found [here](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_style_transfer.py)
 
