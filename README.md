@@ -120,4 +120,4 @@ The code for this section can be found [(here)](https://github.com/h-aboutalebi/
 
 ## Citation 
 
-> Aboutalebi, Hossein, et al. "DeepfakeArt Challenge: A Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection." arXiv preprint arXiv:2306.01272 (2023).
+> Aboutalebi, Hossein, Daniel Mao, Carol Xu, and Alexander Wong. "DeepfakeArt Challenge: A Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection." arXiv preprint arXiv:2306.01272 (2023)
