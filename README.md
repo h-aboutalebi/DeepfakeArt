@@ -117,3 +117,7 @@ In this section, images were generated using the "Cutmix" technique, which invol
 
 
 The code for this section can be found [(here)](https://github.com/h-aboutalebi/DeepfakeArt/blob/main/main_Cutmix.py).
+
+## Citation 
+
+> Aboutalebi, Hossein, et al. "DeepfakeArt Challenge: A Benchmark Dataset for Generative AI Art Forgery and Data Poisoning Detection." arXiv preprint arXiv:2306.01272 (2023).
